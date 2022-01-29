@@ -37,7 +37,7 @@ export default function MarkElement(props) {
         }
       }}
     >
-      {renderValue[props.value]}
+      {`${props.position.row} ${props.position.column}`}
     </div>
   );
 }
