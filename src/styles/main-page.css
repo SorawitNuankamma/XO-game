@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.page {
+    background-color: white;
+    height: 100%;
+}
+
+.inline {
+    display: inline;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    margin-top: 5px;
+}
+
+.content {
+    padding: 2rem;
+}
+
+.font-roboto {
+font-family: 'Roboto', sans-serif;
+}
+
+.title {
+    display: block;
+    color: #464646;
+    font-size: 4rem;
+}
+
+.game-title {
+    margin-top: 1rem;
+    color: #2F7CF6;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    width: fit-content;
+    justify-content: center;
+    align-items: center;
+}
+
+.blue {
+    color: #30A0E0;
+}
+
+.green {
+    color: #36BC9B;
+}
+
+.red {
+    color: #EB5467;
+}
+
+
+
+.container {
+    padding-top: 2rem;
+    margin: 1rem 0 0 0;
+    width: fit-content;
+    display: grid;
+    grid-template-columns: 1fr 1fr 20px 1fr 1fr 1fr 1fr;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-2 {
+    padding-top: 2rem;
+    margin: 1rem 0 0 0;
+    width: fit-content;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-3 {
+    padding-top: 2rem;
+    margin: 1rem 0 0 0;
+    width: fit-content;
+    display: grid;
+    grid-template-columns: 150px 1fr 1fr;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.label {
+    margin-right: 2rem;
+    font-weight: 500;
+}
+
+.gameboard {
+    margin-top: 3rem;
+}
+
+.divider {
+    margin-top: 1rem;
+}
+
+.progress {
+    display: inline;
+    width: 25vw;
+}
+
+.round-number {
+    font-size: 1rem;
+    color: #5f5f5f;
+}

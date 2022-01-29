@@ -1,0 +1,79 @@
+.element {
+    transition: all ease-in-out;
+    height: 4rem;
+    width: 4rem;
+    border-width: 2px;
+    border-color: #CBCBCB;
+    border-radius: 1rem;
+    border-style: solid;
+    cursor: pointer;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.element:hover {
+    border-width: 2px;
+    border-color: #2F7CF6;
+}
+
+.animation-faded {
+  animation-duration: 3s;
+  animation-name: faded;
+}
+
+.player1 {
+    color: #36BC9B;
+}
+
+.player2 {
+    color: #EB5467;
+}
+
+.gold {
+  background-color:#F6BB43 ;
+  border-color: #F6BB43;
+  color: white;
+}
+
+.green-bg {
+  background-color:#36BC9B ;
+  border-color: #36BC9B;
+  color: white;
+}
+
+.red-bg {
+  background-color:#EB5467 ;
+  border-color: #EB5467;
+  color: white;
+}
+
+@keyframes faded {
+  from {
+    opacity: 0%;
+  }
+
+  to {
+    opacity: 100%;
+  }
+}
+
+.animation-pop {
+  animation-duration: 0.25s;
+  animation-name: pop;
+  animation-timing-function: cubic-bezier(0.3, 0.4, 0.5, 1.6)
+}
+
+@keyframes pop {
+  0% {
+    transform: scale(0);
+  }
+
+  80% {
+    transform: scale(1.1);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
